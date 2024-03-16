@@ -12,29 +12,66 @@
     @import url("css/style.css");
     @import url("css/lightcolor.css");
     @import url("css/text.css");
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap')
   </style>
 </head>
 <body class="background">
   <header class="background">
     <div class="header-wrapp">
       <img src="icons/icon.svg" width="48" height="48"/>
-      <h1 class="title primary">ミニテスト</h1>
+      <h1 class="title primary-bg">ミニテスト</h1>
     </div>
   </header>
   <div class="unit-cards">
-    <div class="unit-card secondary">
-     <h2 class="head-text">Unit0</h2>
+    <div class="unit-card secondary-bg">
+      <h2 class="head-text">Unit0</h2>
     </div>
-    <div class="unit-card secondary">
-     <h2 class="head-text">Unit1</h2>
+    <div class="unit-card secondary-bg">
+      <h2 class="head-text">Unit1</h2>
+      <div class="file-name">
+        <p class="regular-text">Unit1-1.pdf</p>
+        <a href="english/Unit1-1.pdf">
+          <img src="icons/icon-open.svg" width="36" height="36"/>
+          <p class="small-text">開く</p>
+        </a>
+        <a href="english/Unit1-1.pdf" download="Unit1-1.pdf">
+          <img src="icons/icon-download.svg" width="36" height="36"/>
+          <p class="small-text">保存</p>
+        </a>
+      </div>
+      <hr class="primary-bg">
+      <div class="file-name">
+        <p class="regular-text">Unit1-2.pdf</p>
+        <a href="english/Unit1-2.pdf">
+          <img src="icons/icon-open.svg" width="36" height="36"/>
+          <p class="small-text">開く</p>
+        </a>
+        <a href="english/Unit1-2.pdf" download="Unit1-2.pdf">
+          <img src="icons/icon-download.svg" width="36" height="36"/>
+          <p class="small-text">保存</p>
+        </a>
+      </div>
+      <hr class="primary-bg">
+      <div class="file-name">
+        <p class="regular-text">Unit1-3.pdf</p>
+        <a href="english/Unit1-3.pdf">
+          <img src="icons/icon-open.svg" width="36" height="36"/>
+          <p class="small-text">開く</p>
+        </a>
+        <a href="english/Unit1-3.pdf" download="Unit1-3.pdf">
+          <img src="icons/icon-download.svg" width="36" height="36"/>
+          <p class="small-text">保存</p>
+        </a>
+      </div>
+      <hr class="primary-bg">
     </div>
   </div>
   <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener("load", function() {
-                navigator.serviceWorker.register('sw.js');
-            });
-        }
-    </script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener("load", function() {
+        navigator.serviceWorker.register('sw.js');
+      });
+    }
+  </script>
 </body>
 </html>
