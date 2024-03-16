@@ -42,6 +42,9 @@ header {
             margin: 0 6px;
             text-decoration: none;
             display: flex;
+            img {
+                margin: 4.5px;
+            }
         }
     }
     hr {
