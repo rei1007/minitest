@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ミニテスト</title>
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <style>
+    @import url("css/style.css");
+    @import url("css/lightcolor.css");
+    @import url("css/text.css");
+  </style>
+</head>
+<body class="background">
+  <header class="background">
+    <div class="header-wrapp">
+      <img src="icons/icon.svg" width="48" height="48"/>
+      <h1 class="title primary">ミニテスト</h1>
+    </div>
+  </header>
+  <div class="unit-cards">
+    <div class="unit-card secondary">
+     <h2 class="head-text">Unit0</h2>
+    </div>
+    <div class="unit-card secondary">
+     <h2 class="head-text">Unit1</h2>
+    </div>
+  </div>
+  <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener("load", function() {
+                navigator.serviceWorker.register('sw.js');
+            });
+        }
+    </script>
+</body>
+</html>

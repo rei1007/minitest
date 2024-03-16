@@ -1,0 +1,35 @@
+body{
+    padding-top: 84px;
+}
+
+header {
+    padding: 24px 0 12px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    .header-wrapp {
+        margin: 0 auto;
+        width: fit-content;
+        display: flex;
+        img {
+            margin: 0 6px;
+        }
+        h1 {
+            margin: 0 6px;
+            padding: 12px;
+            border-radius: 12px;
+        }
+    }
+}
+
+.unit-cards {
+    margin: 0 auto;
+    max-width: 500px;
+    .unit-card {
+        margin: 12px;
+        padding: 12px;
+        height: 400px;
+        border-radius: 12px;
+    }
+}
