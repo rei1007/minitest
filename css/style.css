@@ -8,6 +8,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     .header-wrapp {
         margin: 0 auto;
         width: fit-content;
@@ -25,11 +26,26 @@ header {
 
 .unit-cards {
     margin: 0 auto;
-    max-width: 500px;
-    .unit-card {
-        margin: 12px;
-        padding: 12px;
-        height: 400px;
-        border-radius: 12px;
+    max-width: 500px;  
+}
+.unit-card {
+    margin: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    .file-name {
+        margin: 6px 0;
+        display: flex;
+        p {
+            margin: 0 6px;
+        }
+        a {
+            margin: 0 6px;
+            text-decoration: none;
+            display: flex;
+        }
+    }
+    hr {
+        height: 1px;
+        border: none;
     }
 }
