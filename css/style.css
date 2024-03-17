@@ -1,4 +1,8 @@
-body{
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     padding: 84px 0 72px;
 }
 
@@ -8,7 +12,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 6px #606060;
     .header-wrapp {
         margin: 0 auto;
         width: fit-content;
@@ -28,7 +32,7 @@ header {
     margin: 12px auto;
     padding: 0 12px;
     width: fit-content;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 18px;
 }
 
@@ -46,28 +50,24 @@ header {
     border-radius: 12px;
     .file-name {
         margin: 6px;
-        display: flex;
-        flex-wrap: nowrap;
-        p {
-            margin-right: 24px;
-        }
         .download-button {
+            margin: 6px 0 12px;
             display: flex;
             a {
-                margin: 0 6px;
+                margin-left: 12px;
                 text-decoration: none;
                 border-radius: 18px;
                 display: flex;
                 transition: 0.5s;
                 img {
-                    margin: 4.5px;
                     border-radius: 18px;
                 }
                 p {
-                    margin-right: 12px;
+                    margin: 0 12px 0 6px;
                     color: #606060;
+                    line-height: 27px;
                     border-radius: 18px;
-                    transition: 0.5s;
+                    transition: 0.25s;
                 }
             }
             :hover {
@@ -90,14 +90,25 @@ header {
 nav {
     width: 100%;
     position: fixed;
-    bottom: 12px;
+    bottom: 24px;
     left: 0;
+    display: flex;
     .nav-wrapp {
         margin: 0 auto;
-        padding: 6px;
-        width: 120px;
+        padding: 6px 12px;
         border-radius: 24px;
+        box-shadow: 2px 2px 2px #606060;
         display: flex;
         justify-content: space-around;
+        a {
+            height: 30px;
+            :hover {
+                transform: scale(1.2);
+            }
+        }
+        img {
+            margin: 0 6px;
+            transition: 0.5s;
+        }
     }
 }
