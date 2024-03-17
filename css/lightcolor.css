@@ -1,8 +1,11 @@
 .primary {
+    color: #008080;
+}
+.primary-bg {
     background-color: #008080;
     color: #fbfbfc;
 }
-.secondary {
+.secondary-bg {
     background-color: #cfe6e6;
 }
 .background {
