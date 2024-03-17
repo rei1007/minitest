@@ -47,6 +47,7 @@ header {
     .file-name {
         margin: 6px;
         display: flex;
+        flex-wrap: nowrap;
         p {
             margin-right: 24px;
         }
