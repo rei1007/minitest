@@ -41,17 +41,30 @@ header {
     box-shadow: 2px 2px #008080;
     border-radius: 12px;
     .file-name {
-        margin: 6px 0;
+        margin: 6px;
         display: flex;
         p {
-            margin: 0 6px;
+            margin-right: 24px;
         }
-        a {
-            margin: 0 6px;
-            text-decoration: none;
+        .download-button {
             display: flex;
-            img {
-                margin: 4.5px;
+            :hover {
+                background-color: #fbfbfc;
+            }
+            a {
+                margin: 0 6px;
+                text-decoration: none;
+                border-radius: 18px;
+                display: flex;
+                img {
+                    margin: 4.5px;
+                    border-radius: 18px;
+                }
+                p {
+                    margin-right: 12px;
+                    color: #606060;
+                    border-radius: 18px;
+                }
             }
         }
     }
