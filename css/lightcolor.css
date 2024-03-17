@@ -8,6 +8,10 @@
 .secondary-bg {
     background-color: #cfe6e6;
 }
+.bg-color {
+    color: #fbfbfc;
+}
 .background {
+    color: #000;
     background-color: #fbfbfc;
 }
