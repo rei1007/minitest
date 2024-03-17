@@ -24,6 +24,13 @@ header {
     }
 }
 
+.subject-name {
+    margin: 12px auto;
+    padding: 0 12px;
+    width: fit-content;
+    border-radius: 18px;
+}
+
 .unit-cards {
     margin: 0 auto;
     max-width: 500px;  
@@ -31,6 +38,7 @@ header {
 .unit-card {
     margin: 12px;
     padding: 12px;
+    box-shadow: 2px 2px #008080;
     border-radius: 12px;
     .file-name {
         margin: 6px 0;
