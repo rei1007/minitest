@@ -24,7 +24,7 @@ header {
     }
 }
 
-.subject-name {
+#subject-name {
     margin: 12px auto;
     padding: 0 12px;
     width: fit-content;
@@ -35,7 +35,7 @@ header {
 .toriaezu {
     height: 600px;
 }
-.unit-cards {
+#unit-cards {
     margin: 0 auto;
     max-width: 500px;  
 }
